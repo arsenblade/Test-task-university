@@ -1,0 +1,23 @@
+.myModal {
+  display: grid;
+  grid-template-columns: repeat(2, 220px);
+  column-gap: 6px;
+  row-gap: 6px;
+}
+
+.name {
+  grid-column: 1/3;
+}
+
+.ogrn {
+  grid-column: 1/3;
+}
+
+.inn {
+  grid-column: 1/3;
+}
+
+.title {
+  color: #336699;
+  text-align: center;
+}
